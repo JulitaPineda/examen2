@@ -15,7 +15,8 @@ Para la solucion del problema 3, se utilizo la siguiente clase:
 -LinkedPositionalList
 
 El metodo que se implemento fue el siguiente:
-public void swap(Position<E> p, Position<E> q) {
+
+    public void swap(Position<E> p, Position<E> q) {
         Node<E> nodoP = validate(p);
         Node<E> nodoQ = validate(q);
         Node<E> temp = validate(p);
@@ -24,6 +25,7 @@ public void swap(Position<E> p, Position<E> q) {
         nodoQ.next = temp.next;
         nodoQ.prev = temp.prev;
     }
+    
 
 ### Problema 4
 
